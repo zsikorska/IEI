@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Forms of art</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Personal Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript -->
+    <script src="js/image.js"></script>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand"><i class="fa fa-university"></i></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="forms.html">Forms of art</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="infl_mov" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Most influential movements
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="infl_mov">
+                        <li><a class="dropdown-item" href="cubism.html">Cubism</a></li>
+                        <li><a class="dropdown-item" href="renaissance.html">Renaissance</a></li>
+                        <li><a class="dropdown-item" href="surrealism.html">Surrealism</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="modern_mov" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Modern movements
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="modern_mov">
+                        <li><a class="dropdown-item" href="streetart.html">Street art</a></li>
+                        <li><a class="dropdown-item" href="digitalart.html">Digital art</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main -->
+<div class="container">
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="painting-tab" data-bs-toggle="tab" data-bs-target="#painting-tab-pane" type="button" role="tab" aria-controls="painting-tab-pane" aria-selected="true">Painting</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="sculpture-tab" data-bs-toggle="tab" data-bs-target="#sculpture-tab-pane" type="button" role="tab" aria-controls="sculpture-tab-pane" aria-selected="false">Sculpture</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="architecture-tab" data-bs-toggle="tab" data-bs-target="#architecture-tab-pane" type="button" role="tab" aria-controls="architecture-tab-pane" aria-selected="false">Architecture</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent" style="padding-top: 30px">
+        <div class="tab-pane fade show active" id="painting-tab-pane" role="tabpanel" aria-labelledby="painting-tab" tabindex="0">
+            <p>Painting is a visual form of art that usually consists on the application of paint on a support - canvas, paper, glass, walls, etc. There's many different tools - most commonly used are spatulas, brushes, pens, pencils - that can be used to apply paint, color or pigment to accomplish different types of paintings. It fundamentally consists on viewing figures on a two dimensional matrix.</p>
+            <p>Although these are very popular methods nowadays, painting as a form of art has evolved for many years, going back thousands of years to which scientists and researchers found a pig ilustrated in a cave and came to the conclusion that these cave paintings found in Leang Tedongnge, Indonesia, are at least 45500 years old. Since they haven't invented paint these many years ago, they mostly used minerals to carve and leave colorful marks on the surface. Theres many other paintings that were found in caves, but all of them express the same thing - hunting - mostly big animals and barely any humans are in those drawings that aren't on hunting duties.</p>
+            <img src="images/cavepainting.jpeg" alt="Oldest cave painting found in Leang Tedongnge, Indonesia." class="custom-image" onmouseover="zoomInImage(this, '500px')" onmouseout="zoomOutImage(this, '400px')">
+            <p class="image-source">Source of the image: <a href="https://www.nationalgeographic.co.uk/history-and-civilisation/2021/01/this-45500-year-old-pig-painting-is-the-worlds-oldest-animal-art">link</a></p>
+            <p>Throughout human evolution, as religion rose in popularity all around the world, so did religious art, like Christian art, Hindu art, Islamic art and others. During these periods, many paintings were created with the objective of stimulating the mind of those that worship their Gods and Saints, since having a humanlike form was easier to perceive and understand them.</p>
+            <figure>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/god.jpg" alt="God Inviting Christ to Sit on the Throne at His Right Hand by Pieter de Grebber" style="max-width: 100%; height: 300px; float: right" onmouseover="zoomInImage(this, '400px')" onmouseout="zoomOutImage(this, '300px')">
+                    </div>
+                    <div class="col-md-7">
+                        <img src="images/islampainting.jpg" alt="Muhammad leading Abraham, Moses, and Jesus in prayer, unknown author" style="max-width: 100%; height: 300px; float: left" onmouseover="zoomInImage(this, '400px')" onmouseout="zoomOutImage(this, '300px')">
+                    </div>
+            </div>
+                <figcaption class="image-source">Historic paintings demonstraiting religion: a) God Inviting Christ to Sit on the Throne at His Right Hand by Pieter de Grebber, b) Muhammad leading Abraham, Moses, and Jesus in prayer, unknown author
+                    <br>Source of the images: <a href="https://en.wikipedia.org/wiki/Right_Hand_of_God">link a)</a>
+                    , <a href="https://www.americamagazine.org/arts-culture/2017/02/16/muslim-scholar-sets-out-investigate-jesus-christ">link b)</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tab-pane fade" id="sculpture-tab-pane" role="tabpanel" aria-labelledby="sculpture-tab" tabindex="0">
+            <p>Different sculpting techniques developed over the centuries allowed people to preserve the memory of their ancestors, perpetuate the achievements of previous generations, and were also an artistic expression of their identity. Monument sculpture has become, next to painting, a way to show the human body, it served to portray the faces of famous people, it allows sculptors to express their feelings and values that are valuable to them.</p>
+            <p>There are several types of classification of sculptures. They can be divided due to the shape for example full sculptures and reliefs. They can be free-standing or group sculptures, depicting heads, busts or full figures. A separate category are zoomorphic sculptures that present real or fantastic animals. The next group of sculptures are elements of flora, but also abstract forms created in the author's imagination.</p>
+            <p>Creating wood sculptures is a popular carving technique that allows you to use the individual characteristics of a given piece of wood. Since there are no two identical branches or boughs, each woodwork is unique and difficult to imitate. One of the oldest wood carvings is believed to be the Shigir Idol, found near Yekaterinburg.</p>
+            <img src="images/shigir.jpg" alt="Shigir Idol" class="custom-image" onmouseover="zoomInImage(this, '500px')" onmouseout="zoomOutImage(this, '400px')">
+            <p class="image-source">Source of the image: <a href="https://www.livescience.com/shigir-idol-older-than-thought.html">link</a></p>
+            <p>Stone is one of the oldest sculptural materials. Stone sculptures are usually made of marble or sandstone, rarely granite or other types of stone. Sometimes they are made on the basis of a clay cast. The stone allows to show a given figure or object in three dimensions, emphasize individual facial features or details that the author of the sculpture wanted to emphasize. Among the most famous stone sculptures that have survived to modern times are Venus from Milo, as well as the Vatican Pieta and Michelangelo's David.</p>
+        </div>
+
+        <div class="tab-pane fade" id="architecture-tab-pane" role="tabpanel" aria-labelledby="architecture-tab" tabindex="0">
+            <p>Architecture is the science and art of designing, as well as constructing and then making various spatial structures. Architecture can also be called the totality of material objects that are the work of man and are permanently associated with a given area. These facilities are to meet the personal and social needs of a person. An element of architecture can be a sculpture placed in a park, a bench in a garden, a sidewalk, a house, a bridge, a road, an overpass and other objects of this type.</p>
+            <p>Since antiquity, the goal set before the creators was that architectural objects affect people, hitting their sense of beauty, and the aesthetic elements of the created works have always been an important part of them. Over the centuries, styles prevailing in architecture have changed. Objects of exceptional artistic value are part of the cultural heritage and are considered masterpieces. Historical civilizations are often known mainly for their architectural achievements. Buildings such as the pyramids in Egypt and the Roman Coliseum are cultural symbols and are an important element of the nation's consciousness. Cities, regions and cultures are identified with architectural monuments.</p>
+            <figure>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/pyramid.jpg" alt="Pyramid in Giza" style="max-width: 100%; height: 300px; float: right" onmouseover="zoomInImage(this, '400px')" onmouseout="zoomOutImage(this, '300px')">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/coliseum.jpg" alt="Coliseum in Rome" style="max-width: 100%; height: 300px; float: left" onmouseover="zoomInImage(this, '400px')" onmouseout="zoomOutImage(this, '300px')">
+                    </div>
+                </div>
+                <figcaption class="image-source">Examples of significant cultural architecture symbols: a) Pyramid in Giza, b) Coliseum in Rome
+                    <br>Source of the images: <a href="https://www.osmol.pl/piramidy-w-gizie-egipt/">link a)</a>
+                    , <a href="https://pl.wikipedia.org/wiki/Koloseum">link b)</a>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <hr class="line">
+        &copy; RR & ZS 2023
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

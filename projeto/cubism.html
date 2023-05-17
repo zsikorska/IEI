@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Cubism</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Personal Styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- JavaScript -->
+        <script src="js/image.js"></script>
+    </head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand"><i class="fa fa-university"></i></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="forms.html">Forms of art</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="infl_mov" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Most influential movements
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark"  aria-labelledby="infl_mov" >
+                        <li><a class="dropdown-item" style="color:#999686" href="cubism.html">Cubism</a></li>
+                        <li><a class="dropdown-item" href="renaissance.html">Renaissance</a></li>
+                        <li><a class="dropdown-item" href="surrealism.html">Surrealism</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="modern_mov" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Modern movements
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="modern_mov">
+                        <li><a class="dropdown-item" href="streetart.html">Street art</a></li>
+                        <li><a class="dropdown-item" href="digitalart.html">Digital art</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main -->
+<div class="container">
+    <h1>Cubism</h1>
+    <p>Cubism is one of the trends in the visual arts, primarily related to painting and sculpture, which had its beginning in France around 1907. Its founders focused mainly on the search for completely new principles of the spatial construction of a work by completely rejecting the known rules of perspective. In addition, the representatives of cubism wanted a strong, even geometrical simplification of the elements of the entire composition, which was clearly noticeable in each work.</p>
+    <p>A characteristic feature of cubism is primarily a narrow thematic circle, as the most common motives include still life, portraits and landscapes. In addition, this trend is characterized by a modest color palette, limited mainly to browns, greens and grays. The paintings usually show an object seen from many sides, which is called simultaneousism, because the artists assumed that the recipients of their works would be intelligent enough to put the presented thing together. For this reason, it can be said that the cubists believed that painting results from the knowledge of the object, and not from seeing it directly. The effect of the cubists' activities was to show a multiplied space with a clear structure, which is why their works cannot be classified as fully abstract.</p>
+    <h3>Some examples of leading artworks:</h3>
+    <ul>
+        <li>
+            <h4>Pablo Picasso's "Les Demoiselles d'Avignon"</h4>
+            <img src="images/picasso-1.jpg" alt="Pablo Picasso's Les Demoiselles d'Avignon" class="custom-image" onmouseover="zoomInImage(this, '500px')" onmouseout="zoomOutImage(this, '400px')">
+            <p class="image-source">Source of the image: <a href="https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon">link</a></p>
+            <p>An artwork depicting five naked women. Two of them are more clearly illuminated and isolated from the background. The other three women, on the other hand, are presented in an unrealistic way, and the main deformation concerns their faces. There is no perspective in this painting, because both the figures and the background are one whole. The colors are mild for the eye. It is a cubist painting in which one can notice the geometrisation of female silhouettes and the body broken into several individual fragments.</p>
+        </li>
+        <li>
+            <h4>Pablo Picasso "Guernica"</h4>
+            <img src="images/picasso-2.jpg" alt="Pablo Picasso's Guernica" class="custom-image" onmouseover="zoomInImage(this, '500px')" onmouseout="zoomOutImage(this, '400px')">
+            <p class="image-source">Source of the image: <a href="https://www.infoescola.com/pintura/guernica/">link</a></p>
+            <p>A cubist painting that is an act of protest against violence and at the same time a manifestation of pacifism, thanks to which it has a clear message. The work shows deformed human and animal figures that form one chaotic whole. Fragments of limbs, bodies and heads are visible, and the mouth is usually open in a silent scream. There is obvious terror in her eyes. The image is full of dynamics and maintained in monochromatic colors.</p>
+        </li>
+    </ul>
+
+    <footer class="footer">
+      <hr class="line">
+      &copy; RR & ZS 2023
+    </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
